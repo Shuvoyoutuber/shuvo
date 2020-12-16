@@ -1,0 +1,1265 @@
+@media only screen and (min-width:160rem){
+    .container-fluid{
+        max-width: 114rem;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    /*============PORTFOLIO SECTION START==================*/
+    .overlay-icon {
+        margin-left: -4rem;
+    }
+/*============PORTFOLIO SECTION START==================*/
+/*============SKILLS SECTION START==================*/
+.our_scills h2::after {
+    width: 300px;
+}
+.our_scills h2::before {
+    width: 300px;
+}
+.overlay:hover .ovelay-text {
+    top: 11%;
+    left: 23%;
+}
+.overlay:hover .overlay_color {
+    top: 0%;
+}
+/*============CONTACT SECTION START==================*/
+#contact_section .address h5 {
+    width: 52%;
+}
+#contact_section .address p {
+    width: 76%;
+}
+/*============CONTACT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+#photo_stram .content-five h5 {
+    margin-left: -9.3rem;
+}
+#photo_stram .content-one p {
+    margin: 1rem 8.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 8.5rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+}
+@media only screen and (max-width:991px){
+    /*============CONTACT SECTION START==================*/
+    #contact_section .uk-input, .uk-textarea {
+        margin-bottom: 1rem;
+    }
+    /*============CONTACT SECTION START==================*/
+}
+@media only screen and (min-width:768px) and (max-width:1199px){
+    /*============SLIDER SECTION START==================*/
+    .slider_content .display-1 {
+        font-size: 5rem;
+    }
+    .slider_content p {
+        font-size: 2.8rem;
+        margin-left: 6px;
+    }
+    .slider_content {
+        top: 43%;
+        left: 4%;
+    }
+    #slider_section img {
+        left: -6%;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============OUR SERVICES SECTION START==================*/
+    #our_services img {
+        width: 2rem;
+        height: 2.1rem;
+    }
+    /*============OUR SERVICES SECTION END==================*/
+    /*============PHOTO STRAM SECTION START==================*/
+    #photo_stram .content-five h5 {
+        margin-left: -9.3rem;
+    }
+    #photo_stram .content-one p {
+        margin: 1rem 4.5rem;
+    }
+    #photo_stram .content-two p {
+        margin: 1rem 4.5rem;
+    }
+    #photo_stram .content-five h5 {
+        margin-left: -5.3rem;
+    }
+/*============PHOTO STRAM SECTION END==================*/
+/*============FOOTER SECTION START==================*/
+
+footer li {
+    margin-right: .5rem;
+    display: inherit;
+}
+/*============FOOTER SECTION END==================*/
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    /*============BASIC SETUP START==================*/
+    .col-md-3 {
+        flex: auto;
+        max-width: 50%;
+    }
+    /*============BASIC SETUP SECTION END==================*/
+     /*============OUR SERVICES SECTION START==================*/
+    #our_services .icon_area a {
+        width: 19%;
+    }
+    #our_services img {
+        width: 20px;
+        height: 20px;
+    }
+     /*============OUR SERVICES SECTION END==================*/
+      /*============THEM SECTION START==================*/
+    #them-section .display-1 {
+        font-size: 5rem;
+    }
+     /*============THEM SECTION END==================*/
+    /*============OUR PRICE SECTION START==================*/
+    #our_price  .card {
+        margin-bottom: 3rem;
+    }
+    #our_price .clients-about-us p {
+        padding: 0 21rem;
+    }
+     /*============OUR PRICE SECTION END==================*/
+      /*============TESTIMONIAL SECTION START==================*/
+    .testimonial a {
+        margin-top: -2rem;
+    }
+      /*============TESTIMONIAL SECTION END==================*/
+      /*============PORTFOLIO SECTION START==================*/
+      /*============SKILLS SECTION START==================*/
+.our_scills h2::after {
+    width: 190px;
+}
+.our_scills h2::before {
+    width: 190px;
+}
+.span_1_of_5 {
+    width: 100%; 
+}
+.our_scills .skills {
+    padding-bottom: 144rem;
+}
+/*============OUR SKILLS SECTION END==================*/
+
+/*============CONTACT SECTION START==================*/
+#contact_section .address p {
+    width: 91%;
+}
+#contact_section .address h5 {
+    width: 69%;
+    margin-top: 4rem;
+}
+/*============CONTACT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+#photo_stram .header-one h2 {
+    margin-bottom: 3rem;
+}
+#photo_stram .header-three h2 {
+    margin-bottom: 3rem;
+}
+#photo_stram .header-two h2 {
+    margin-bottom: 4rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+}
+
+@media only screen and (min-width:768px) and (max-width:909px){
+      /*============SLIDER SECTION START==================*/
+
+    .slider_content .display-1 {
+        font-size: 5rem;
+    }
+    .slider_content p {
+        font-size: 2.8rem;
+    }
+    .slider_content {
+        top: 41%;
+        left: 16%;
+    }
+    #slider_section img {
+        left: -6%;
+    }
+      /*============SLIDER SECTION END==================*/
+
+}
+@media only screen and (max-width:767px){
+      /*============CONTACT SECTION START==================*/
+
+    form {
+        margin-bottom: 8rem;
+    }
+    #contact_section .address p {
+        width: 41%;
+        margin-top: -3rem;
+    }
+    #contact_section .address h5 {
+        width: 31%;
+        margin-top: -6rem;
+    }
+      /*============CONTACT SECTION END==================*/
+    /*============PHOTO STRAM SECTION START==================*/
+    #photo_stram h2::before {
+        top: 14%;
+        left: 14%;
+    }
+    #photo_stram .content-one h5 {
+        margin-right: 23rem;
+    }
+    #photo_stram .content-one p {
+        margin: 1rem 6.5rem;
+    }
+    #photo_stram .content-two span {
+        margin-left: -26rem;
+    }
+    #photo_stram .content-two p {
+        margin: 1rem 6.5rem;
+    }
+    #photo_stram .header-two h2 {
+        margin-left: -3rem;
+    }
+    #photo_stram .content-three, .content-four, .content-five .lead {
+        margin: 0.8rem 6rem;
+    }
+    #photo_stram .content-five h5 {
+        margin-left: -31.3rem;
+    }
+    #photo_stram .content-three h5 {
+        margin-top: 5rem;
+    }
+    #photo_stram .header-three h2 {
+        margin-left: -3rem;
+    }
+    .photo-streme-gellay {
+        margin-top: 4rem;
+    }
+    
+/*============PHOTO STRAM SECTION END==================*/
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+      /*============SLIDER SECTION START==================*/
+
+    .slider_content .display-1 {
+        font-size: 3rem;
+    }
+    .slider_content p {
+        font-size: 1.8rem;
+        margin-top: -1.5rem;
+        margin-left: 18px;
+    }
+    .slider_content {
+        top: 56%;
+    }
+    #slider_section img {
+        left: -11%;
+    }
+      /*============SLIDER SECTION END==================*/
+      /*============OUR SERVICES SECTION START==================*/
+    #our_services img {
+        width: 20px;
+        height: 20px;
+    }
+    #our_services .icon_area a {
+        width: 13%;
+    }
+    #our_services p {
+        width: 54%;
+        margin: 21px auto;
+    }
+    #our_services h3 {
+        margin-bottom: -1rem;
+    }
+      /*============THEM SECTION START==================*/
+    #them-section .display-1 {
+        font-size: 4rem;
+    }
+      /*===========THEM SECTION END==================*/
+      /*============PORTFOLIO SECTION START==================*/
+    .overlay_color {
+        height: 17.12rem;
+    }
+    #portfolio-section button {
+        font-size: 1.2rem;
+    }
+    /*============PORTFOLIO SECTION END==================*/
+    /*============OUR PRICE SECTION START==================*/
+    #our_price  .card {
+        margin-bottom: 3rem;
+    }
+    #our_price .clients-about-us p {
+        padding: 0 11rem;
+    }
+    /*============PORTFOLIO SECTION END==================*/
+    /*============TESTIMONIAL SECTION START==================*/
+    .testimonial a {
+        margin-top: -3rem;
+    }
+    /*============TESTIMONIAL END==================*/
+    /*============PRIGING SECTION START==================*/
+    #pricing_section h3 {
+        font-size: 28px;
+    }
+    /*============PRICING SECTION END==================*/
+    /*============ABOUT SECTION START==================*/
+    #about_section p {
+        padding: 0 15.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============SKILLS SECTION START==================*/
+.our_scills h2::after {
+    width: 100px;
+}
+.our_scills h2::before {
+    width: 100px;
+}
+.span_1_of_5 {
+    width: 100%; 
+}
+.our_scills .skills {
+    padding-bottom: 144rem;
+}
+/*============SKILLS SECTION END==================*/
+/*============CONNECT SECTION START==================*/
+    #connect_section h3 {
+        font-size: 3rem;
+    }
+    .social_link {
+        margin: 2rem auto;
+    }
+    #connect_section a {
+        margin-top: 1rem;
+    }
+/*============CONNECT SECTION END==================*/
+/*============FOOTER SECTION START==================*/
+
+footer li {
+    display: inherit;
+}
+/*============FOOTER SECTION END==================*/
+}
+
+
+
+@media only screen and (max-width:1200px){
+    
+}
+@media only screen and (max-width:1150px){
+    
+}
+@media only screen and (max-width:1150px){
+    
+}
+
+@media only screen and (max-width:991px){
+    /*============HEADER SECTION START==================*/
+    .mein_menu{
+        display: none;
+    }
+    .responsive_menu span{
+        display: block;
+    }
+    /*============HEADER SECTION END==================*/
+    /*============SLIDER SECTION START==================*/
+    #slider_section a {
+        width: 9%;
+    }
+    /*============SLIDER SECTION END==================*/
+}
+@media only screen and (max-width:768px){
+     /*============HEADER SECTION START==================*/
+     .mobile_menu ul a {
+        top: 11rem;
+        font-size: 2.5rem;
+    }
+    .close-btn {
+        font-size: 5.7rem;
+        margin-left: 89%;
+        margin-top: 0rem;
+    }
+    /*============HEADER SECTION END==================*/
+    /*============MORE SECTION START==================*/
+    #more_section h1 {
+        font-size: 35px;
+        margin-bottom: 3.5rem;
+    }
+    #more_section h3 {
+        font-size: 2.5rem;
+}
+/*============MORE SECTION START==================*/
+}
+@media only screen and (max-width:575px){
+    /*============SLIDER SECTION START==================*/
+
+    .slider_content {
+        top: 36%;
+        left: -6%;
+    }
+    .slider_content .display-1 {
+        font-size: 4rem;
+    }
+    #slider_section img {
+        top: 9%;
+        height: 70%;
+        left: 18%;
+    }
+    .slider_content p {
+        font-size: 2.2rem;
+        margin-top: -2rem;
+        margin-left: -5px;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============OUR SERVICES SECTION START==================*/
+    #our_services .icon_area a {
+        width: 14%;
+    }
+    #our_services p {
+        padding: 0 5.7rem;
+        width: 51%;
+        margin: 1.5rem auto;
+    }
+    #our_services h3 {
+        margin-bottom: -.8rem;
+    }
+    /*============OUR SERVICES SECTION END==================*/
+    /*============THEM SECTION SECTION START==================*/
+    #them-section .display-1 {
+        font-size: 4rem;
+    }
+    /*============THEML SECTION END==================*/
+    /*============PORTFOLIO SECTION START==================*/
+    .overlay_color {
+        height: 17.12rem;
+    }
+    .overlay:hover .overlay_color {
+        top: 29%;
+    }
+    .overlay:hover .ovelay-text {
+        top: 41%;
+        left: 36%;
+    }
+    /*============PORTFOLIO SECTION END==================*/
+    /*============OUR PRICES SECTION START==================*/
+    #our_price  .card {
+        margin-bottom: 3rem;
+    }
+    #our_price .clients-about-us p {
+        padding: 0 11rem;
+    }
+    /*============OUR PRICE SECTION END==================*/
+    /*============TESTIMONIAL SECTION START==================*/
+    .testimonial a {
+        margin-top: -3rem;
+    }
+    /*============TESTIMONIAL SECTION END==================*/
+    /*============PRICING  SECTION START==================*/
+    #pricing_section h1 {
+        font-size: 52px;
+    }
+    #pricing_section h3 {
+        font-size: 21px;
+        margin-top: -2.3rem;
+    }
+    /*============PRICING SECTION END==================*/
+    /*============TESTIMONIAL SECTION START==================*/
+    .slick-prev {
+        left: 12px;
+    }
+    .slick-next {
+        right: 12px;
+    }
+    /*============TESTIMONIAL SECTION END==================*/
+    /*============ABOUT SECTION START==================*/
+    #about_section p {
+        padding: 0 15.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============HEADER SECTION START==================*/
+    .mobile_menu ul a {
+        top: 11rem;
+        font-size: 2.5rem;
+    }
+    .close-btn {
+        font-size: 5.7rem;
+        margin-left: 92%;
+        margin-top: 0rem;
+    }
+    /*============HEADER SECTION END==================*/
+   /*============SKILLS SECTION START==================*/
+    .our_scills h2::after {
+        width: 100px;
+    }
+    .our_scills h2::before {
+        width: 100px;
+    }
+    .span_1_of_5 {
+        width: 100%; 
+    }
+    .our_scills .skills {
+        padding-bottom: 116rem;
+}
+/*============SKILLS SECTION END==================*/
+/*============MORE SECTION START==================*/
+#more_section h1 {
+    font-size: 35px;
+    margin-bottom: 3.5rem;
+}
+#more_section h3 {
+    font-size: 2.5rem;
+}
+/*============MORE SECTION START==================*/
+/*============CONNECT SECTION START==================*/
+#connect_section h2 {
+    font-size: 4rem;
+    }
+    #connect_section h3 {
+        font-size: 2rem;
+    }
+    .social_link {
+        margin: 2rem auto;
+    }
+    #connect_section a {
+        margin-top: 1rem;
+    }
+/*============CONNECT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+#photo_stram .content-one p {
+    margin: 1rem 8.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 8.5rem;
+}
+#photo_stram .content-three, .content-four, .content-five .lead {
+    margin: 0.8rem 9rem;
+}
+#photo_stram .content-five h5 {
+    margin-left: -29.3rem;
+}
+.photo-streme-gellay .col-sm-3 {
+    max-width: 17%;
+    margin-left: 4rem;
+}
+/*============FOOTER SECTION END==================*/
+
+footer ul {
+    margin: 1rem -2rem;
+}
+/*============FOOTER SECTION END==================*/
+
+/*============PHOTO STRAM SECTION END==================*/
+}
+@media only screen and (min-width:440px) and (max-width:574px){
+    /*============SLIDER SECTION START==================*/
+
+    .slider_content .display-1 {
+        font-size: 3rem;
+    }
+    .slider_content p {
+        font-size: 2rem;
+        margin-top: -1rem;
+        margin-left: 49px;
+    }
+    .slider_content {
+        left: -12%;
+    }
+    #slider_section a {
+        width: 15%;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============OUR PRICE SECTION START==================*/
+    #our_price .clients-about-us p {
+        padding: 0 7rem;
+    }
+    #our_price .clients-about-us p {
+        padding: 0 6rem;
+    }
+    /*============OUR PRICE SECTION END==================*/
+
+    /*============PRICING SECTION START==================*/
+    #pricing_section h3 {
+        font-size: 23px;
+    }
+    /*============PRICING SECTION END==================*/
+    /*============ PORTFOLIO SECTION START===================*/
+    #portfolio-section button {
+        font-size: .8rem;
+    }
+    /*============ PORTFOLIO SECTION START===================*/
+    /*============ABOUT SECTION START==================*/
+    #about_section p {
+        padding: 0 10.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============HEADER SECTION START==================*/
+    .mobile_menu .mobile a {
+        top: 24rem;
+        font-size: 2.5rem;
+    }
+    .close-btn {
+        font-size: 5.7rem;
+        margin-left: 90%;
+        margin-top: 0rem;
+    }
+    /*============HEADER SECTION END==================*/
+       /*============SKILLS SECTION START==================*/
+    .our_scills h2::after {
+        width: 70px;
+    }
+    .our_scills h2::before {
+        width: 70px;
+    }
+    .span_1_of_5 {
+        width: 100%; 
+    }
+    .our_scills .skills {
+        padding-bottom: 116rem;
+    }
+    #about_section h2 {
+        font-size: 2.6rem;
+    }
+    .our_scills {
+        padding-bottom: 28rem;
+    }
+/*============SKILLS SECTION END==================*/
+/*============MORE SECTION START==================*/
+#more_section h1 {
+    font-size: 35px;
+    margin-bottom: 3.5rem;
+}
+#more_section h3 {
+    font-size: 2.5rem;
+}
+/*============MORE SECTION START==================*/
+/*============CONTACT SECTION START==================*/
+#contact_section .address p {
+    width: 50%;
+}
+#contact_section .address h5 {
+    width: 48%;
+}
+  /*============CONTACT SECTION END==================*/
+   /*============CONNECT SECTION START==================*/
+   #connect_section h2 {
+    font-size: 4rem;
+    }
+    #connect_section h3 {
+        font-size: 2rem;
+    }
+    .social_link {
+        margin: 2rem auto;
+    }
+    #connect_section a {
+        margin-top: 1rem;
+    }
+/*============CONNECT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+    .photo-streme-gellay .col-sm-3 {
+        max-width: 15%;
+    }
+    #photo_stram .content-five h5 {
+        margin-left: -16.3rem;
+    }
+    #photo_stram .content-one p {
+        margin: 1rem 1.5rem;
+    }
+    #photo_stram .content-two p {
+        margin: 1rem 1.5rem;
+    }
+    #photo_stram .content-three, .content-four, .content-five .lead {
+        margin: 0.8rem 2rem;
+    }
+    #photo_stram .content-five h5 {
+        margin-left: -43.3rem;
+    }
+/*============PHOTO STRAM SECTION END==================*/
+/*============FOOTER SECTION END==================*/
+
+footer li {
+    list-style: none;
+    display: block;
+    font-size: 1.6rem;
+    color: #929292;
+    margin-right: 1.5rem;
+}
+/*============FOOTER SECTION END==================*/
+}
+@media only screen and (min-width:360px) and (max-width:439px){
+    /*============SLIDER SECTION START==================*/
+
+    .slider_content p {
+        font-size: 2rem;
+        margin-top: -2rem;
+        margin-left: 11px;
+    }
+    #slider_section img {
+        left: 0%;
+    }
+    .slider_content .display-1 {
+        font-size: 3.5rem;
+    }
+    .slider_content {
+        left: -3%;
+    }
+    #slider_section a {
+        width: 16%;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============THEM SECTION START==================*/
+    #them-section .display-1 {
+        font-size: 2.6rem;
+    }
+    /*============THEM SECTION END==================*/
+    /*============OUR SERVICES SECTION START==================*/
+    #our_services p {
+        width: 69%;
+    }
+    #our_services img {
+        width: 20px;
+        height: 20px;
+    }
+    #our_services .icon_area a {
+        width: 17%;
+    }
+    /*============OUR SERVICES SECTION END==================*/
+    /*============ PORTFOLIO SECTION START===================*/
+    #portfolio-section button {
+        font-size: 1.1rem;
+    }
+    .overlay:hover .overlay_color {
+        top: 9%;
+    }
+    .overlay:hover .ovelay-text {
+        top: 25%;
+        left: 29%;
+    }
+    /*============ PORTFOLIO SECTION START===================*/
+    /*============ABOUT SECTION START==================*/
+    #about_section p {
+        padding: 0 6.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============HEADER SECTION START==================*/
+    .mobile_menu .mobile a {
+        top: 19rem;
+        font-size: 2.5rem;
+    }
+    .close-btn {
+        font-size: 4.7rem;
+        margin-left: 86%;
+        margin-top: 0.2rem;
+    }
+    /*============HEADER SECTION END==================*/
+    /*============SKILLS SECTION START==================*/
+    .our_scills h2::after {
+        width: 40px;
+    }
+    .our_scills h2::before {
+        width: 40px;
+    }
+    #about_section h2 {
+        font-size: 2rem;
+    }
+    .our_scills .skills {
+        padding-bottom: 142rem;
+    }
+    /*============MORE SECTION START==================*/
+    #more_section h1 {
+        font-size: 25px;
+        margin-bottom: 3.5rem;
+    }
+    #more_section h3 {
+        font-size: 2rem;
+    }
+    /*============MORE SECTION START==================*/
+/*============CONTACT SECTION START==================*/
+#contact_section .address p {
+    width: 58%;
+}
+#contact_section .address h5 {
+    width: 59%;
+}
+  /*============CONTACT SECTION END==================*/
+   /*============CONNECT SECTION START==================*/
+    #connect_section h2 {
+        font-size: 4rem;
+    }
+    #connect_section h3 {
+        font-size: 2rem;
+    }
+    .social_link {
+        margin: 2rem auto;
+    }
+    #connect_section a {
+        margin-top: 1rem;
+    }
+/*============CONNECT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+.photo-streme-gellay .col-sm-3 {
+    max-width: 15%;
+}
+#photo_stram .content-five h5 {
+    margin-left: -16.3rem;
+}
+#photo_stram .content-one h5 {
+    margin-right: 17rem;
+}
+#photo_stram .content-two span {
+    margin-left: -20rem;
+}
+#photo_stram .content-one p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-three, .content-four, .content-five .lead {
+    margin: 0.8rem 1rem;
+}
+#photo_stram .content-five h5 {
+    margin-left: -31.3rem;
+}
+.photo-streme-gellay .col-sm-3 {
+    max-width: 32%;
+}
+.photo-streme-gellay {
+    margin-top: 2rem;
+}
+#photo_stram h2::before {
+    top: 7%;
+}
+#photo_stram .header-two h2 {
+    margin-bottom: -2rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+/*============FOOTER SECTION END==================*/
+
+footer li {
+    font-size: 1.1rem;
+}
+/*============FOOTER SECTION END==================*/
+}
+@media only screen and  (min-width:320px) and (max-width:359px){
+    /*============SLIDER SECTION START==================*/
+    
+    .slider_content p {
+        font-size: 15px;
+        margin-top: -1rem;
+        margin-left: -7%;
+    }
+    .slider_content .display-1 {
+        font-size: 3rem;
+    }
+    .slider_content {
+        top: 25%;
+        left: -5%;
+    }
+    #slider_section a {
+        width: 19%;
+    }
+    #slider_section img {
+        top: 9%;
+        height: 70%;
+        left: 2%;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============OUR SERVICES SECTION START==================*/
+
+    #our_services img {
+        width: 23px;
+        height: 23px;
+    }
+    #our_services .icon_area a {
+        width: 19%;
+    }
+    #our_services p {
+        width: 78%;
+    }
+    /*============OUR SERVICES SECTION END==================*/
+    /*============THEM SECTION START==================*/
+    #them-section .display-1 {
+        font-size: 2.2rem;
+    }
+    /*============THEM SECTION END==================*/
+    /*============PORTFOLLIO SECTION START==================*/
+    
+    .overlay:hover .overlay_color {
+        top: 9%;
+    }
+    .overlay:hover .ovelay-text {
+        top: 25%;
+        left: 29%;
+    }
+    /*============PORTFOLIO SECTION END==================*/
+    /*============PRICING SECTION END==================*/
+    #pricing_section h1 {
+        font-size: 52px;
+    }
+    #pricing_section h3 {
+        font-size: 21px;
+        margin-top: -2.3rem;
+    }
+    #pricing_section h3 {
+        font-size: 16px;
+    }
+    /*============PRICING SECTION END==================*/
+    /*============OUR PRICE SECTION START==================*/
+    #our_price .clients-about-us p {
+        padding: 0 5rem;
+    }
+    /*============OUR PRICE SECTION END==================*/
+     /*============ABOUT SECTION START==================*/
+     #about_section p {
+        padding: 0 4.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============HEADER SECTION START==================*/
+    .mobile_menu .mobile a {
+        top: 6rem;
+        font-size: 2rem;
+    }
+    .close-btn {
+        font-size: 4.7rem;
+        margin-left: 86%;
+        margin-top: 0.2rem;
+    }
+    /*============HEADER SECTION END==================*/
+    /*============SKILLS SECTION START==================*/
+    .our_scills h2::after {
+        width: 40px;
+    }
+    .our_scills h2::before {
+        width: 40px;
+        margin: .5rem 4rem;
+    }
+    #about_section h2 {
+        font-size: 1.2rem;
+        margin: 0.5rem 0rem;
+    }
+    .our_scills .skills {
+        padding-bottom: 141rem;
+    }
+    /*============MORE SECTION START==================*/
+    #more_section h1 {
+        font-size: 25px;
+        margin-bottom: 3.5rem;
+    }
+    #more_section h3 {
+        font-size: 2rem;
+    }
+    /*============MORE SECTION END==================*/
+    /*============CONTACT SECTION START==================*/
+    #contact_section .address p {
+        width: 70%;
+    }
+    #contact_section .address h5 {
+        width: 70%;
+    }
+  /*============CONTACT SECTION END==================*/
+  /*============CONNECT SECTION START==================*/
+#connect_section h2 {
+    font-size: 4rem;
+}
+#connect_section h3 {
+    font-size: 2rem;
+}
+.social_link {
+    margin: 2rem auto;
+}
+#connect_section a {
+    margin-top: 1rem;
+}
+/*============CONNECT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+.photo-streme-gellay .col-sm-3 {
+    max-width: 15%;
+}
+#photo_stram .content-five h5 {
+    margin-left: -16.3rem;
+}
+#photo_stram .content-one h5 {
+    margin-right: 17rem;
+}
+#photo_stram .content-two span {
+    margin-left: -20rem;
+}
+#photo_stram .content-one p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-three, .content-four, .content-five .lead {
+    margin: 0.8rem 1rem;
+}
+#photo_stram .content-five h5 {
+    margin-left: -20.3rem;
+}
+.photo-streme-gellay .col-sm-3 {
+    max-width: 32%;
+}
+.photo-streme-gellay {
+    margin-top: 2rem;
+}
+#photo_stram h2::before {
+    top: 7%;
+}
+#photo_stram .header-two h2 {
+    margin-bottom: -2rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+/*============FOOTER SECTION END==================*/
+
+footer li {
+    font-size: 1rem;
+    margin-right: .1rem;
+}
+/*============FOOTER SECTION END==================*/
+}
+@media only screen and  (max-width:319px){
+    /*============SKIDER SECTION START==================*/
+
+    .slider_content .display-1 {
+        font-size: 2rem;
+    }
+    #slider_section a {
+        width: 19%;
+    }
+    .slider_content p {
+        font-size: 12px;
+        margin-top: -5px;
+        margin-left: 19px;
+    }
+    #slider_section img {
+        left: -1%;
+    }
+    /*============SLIDER SECTION END==================*/
+    /*============OUR SERVICES SECTION START==================*/
+    #our_services p {
+        width: 86%;
+    }
+    #our_services img {
+        width: 23px;
+        height: 23px;
+    }
+    #our_services .icon_area a {
+        width: 22%;
+    }
+    #our_services p {
+        width: 100%;
+    }
+    #our_services img {
+        width: 20px;
+        height: 20px;
+    }
+    #our_services .icon_area a {
+        width: 25%;
+    }
+    /*============OUR SERVICES SECTION END==================*/
+    /*============THEM SECTION START==================*/
+    
+    #them-section .display-1 {
+        font-size: 1.5rem;
+        margin-top: -3rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+    #them-section .btn-2 {
+        margin: 1rem auto;
+    }
+    /*============THEM SECTION END==================*/
+    /*============OUR PRICE SECTION START==================*/
+    
+    button {
+        width: 100%;
+    }
+    #our_price .clients-about-us p {
+        padding: 0 2rem;
+    }
+    /*============OUR PRICE SECTION END==================*/
+    /*============PORTFOLIA SECTION START==================*/
+    
+    .overlay:hover .overlay_color {
+        top: 10%;
+        width: 100%;
+        left: 0%;
+        height: 100%;
+        top: -7px;
+        border-radius: 0;
+    }
+    .overlay_color {
+        height: 13.12rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .overlay:hover .ovelay-text {
+        top: 22%;
+        left: 26%;
+    }
+    /*============PORTFOLIO SECTION END==================*/
+    /*============PRICING SECTION START==================*/
+
+    #pricing_section h1 {
+        font-size: 32px;
+    }
+    #pricing_section h3 {
+        font-size: 15px;
+        margin-top: -1rem;
+    }
+    /*============PRICING SECTION END==================*/
+    /*============TESTIMONOAL SECTION END==================*/
+    .slick-next {
+        right: -2px;
+    }
+    .slick-prev {
+        left: -2px;
+    }
+    /*============ABOUT SECTION START==================*/
+    #about_section p {
+        padding: 0 3.5rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============HEADER SECTION START==================*/
+    .mobile_menu .mobile a {
+        top: 11rem;
+        font-size: 1.3rem;
+    }
+    .close-btn {
+        font-size: 4.7rem;
+        margin-left: 82%;
+        margin-top: 0.2rem;
+    }
+    /*============HEADER SECTION END==================*/
+    /*============ABOUT SECTION START==================*/
+    #about_section h2 {
+        font-size: 2.6rem;
+    }
+    /*============ABOUT SECTION END==================*/
+    /*============SKILLS SECTION START==================*/
+    .our_scills .skills {
+        padding-bottom: 138rem;
+    }
+/*============SKILLS SECTION END==================*/
+/*============MORE SECTION START==================*/
+#more_section h1 {
+    font-size: 19px;
+    margin-bottom: 3.5rem;
+}
+#more_section h3 {
+    font-size: 2rem;
+}
+/*============MORE SECTION START==================*/
+/*============CONTACT SECTION START==================*/
+#contact_section .address p {
+    width: 88%;
+}
+#contact_section .address h5 {
+    width: 91%;
+}
+/*============CONTACT SECTION END==================*/
+/*============CONNECT SECTION START==================*/
+#connect_section h2 {
+    font-size: 3rem;
+}
+#connect_section h3 {
+    font-size: 1.5rem;
+}
+.social_link {
+    margin: 2rem auto;
+}
+#connect_section a {
+    padding: 0;
+    margin-bottom: 2rem;
+}
+/*============CONNECT SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+.photo-streme-gellay .col-sm-3 {
+    max-width: 15%;
+}
+#photo_stram .content-five h5 {
+    margin-left: -16.3rem;
+}
+#photo_stram .content-one h5 {
+    margin-right: 17rem;
+}
+#photo_stram .content-two span {
+    margin-left: -20rem;
+}
+#photo_stram .content-one p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-three, .content-four, .content-five .lead {
+    margin: 0.8rem 1rem;
+}
+#photo_stram .content-five h5 {
+    margin-left: -24.3rem;
+}
+.photo-streme-gellay .col-sm-3 {
+    max-width: 32%;
+}
+.photo-streme-gellay {
+    margin-top: 2rem;
+}
+#photo_stram h2::before {
+    top: 7%;
+}
+#photo_stram .header-two h2 {
+    margin-bottom: -2rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+/*============PHOTO STRAM SECTION START==================*/
+.photo-streme-gellay .col-sm-3 {
+    max-width: 15%;
+}
+#photo_stram .content-five h5 {
+    margin-left: -16.3rem;
+}
+#photo_stram .content-one h5 {
+    margin-right: 6rem;
+}
+#photo_stram .content-two span {
+    margin-left: -9rem;
+}
+#photo_stram .content-one p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-two p {
+    margin: 1rem 0.5rem;
+}
+#photo_stram .content-three, .content-four, .content-five .lead {
+    margin: 0.8rem 1rem;
+}
+#photo_stram .content-five h5 {
+    margin-left: -12.3rem;
+}
+.photo-streme-gellay .col-sm-3 {
+    max-width: 30%;
+    margin-left: 26px;
+    margin-right: 12px;
+}
+.photo-streme-gellay {
+    margin-top: 2rem;
+}
+#photo_stram h2::before {
+    top: 8%;
+}
+#photo_stram .header-two h2 {
+    margin-bottom: -3rem;
+    margin-top: 1rem;
+}
+/*============PHOTO STRAM SECTION END==================*/
+/*============FOOTER SECTION END==================*/
+footer li {
+    font-size: 1.5rem;
+    margin-right: .1rem;
+    display: block;
+}
+/*============FOOTER SECTION END==================*/
+}

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Parallels Single Page Template Design By Mohammad Sujon">
+    <title>Parallels</title>
+    <!---=================FAVICON======================-->
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <!---=================GOOGLE FONT======================-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <!---=================BOOTSTRAP  ======================-->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <!---=================UIKIT  ======================-->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <!---================= SLICK//SLICK//ICON//NORMALIZE//RADIAL-PROGRESSBAR ======================-->
+    <link rel="stylesheet" href="vendors/css/vendors.css">
+    <link rel="stylesheet" href="vendors/css/navbar-fixed.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!---================= MEIN CSS ======================-->
+    <link rel="stylesheet" href="resources/css/style.css">
+      <!---================= RESPONSIVE CSS ======================-->
+      <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+    
+    <!---================= HEADER SECTION START======================-->
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="logo_area">
+                    <a href="#header" class="navbar-brand">
+                        <img src="resources/img/favicon.png" alt="favicon.png" data-target="#header"> 
+                         Parallels
+                    </a>
+                </div>
+                <!---================= MEIN MENU START======================-->
+                <div class="mein_menu">
+                    <ul>
+                        <li>
+                            <a href="#header">home</a>
+                        </li>
+                        <li>
+                            <a href="#our_services">services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio-section">portfollio</a>
+                        </li>
+                        <li>
+                            <a href="#our_price">pricing</a>
+                        </li>
+                        <li>
+                            <a href="#about_section">about</a>
+                        </li>
+                        <li>
+                            <a href="#contact_section">contact</a>
+                        </li>
+                        <a href="javascript:void(0)" uk-icon="icon: search" class="secrch"></a>
+                    </ul>
+                </div>
+                <!---================= MEIN MENU END======================-->
+                <!---================= MOBILE MENU START======================-->
+               <div class="responsive_menu">
+                   <span onclick="openNav()" > &#9776;</span>
+                   <div class="mobile_menu" id="mobile_menu">
+                       <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                           <div class="mobile">
+                            <li>
+                                <a href="#header" onclick="closeNav()">home</a>
+                            </li>
+                            <li>
+                                <a href="#our_services" onclick="closeNav()">services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-section" onclick="closeNav()">portfollio</a>
+                            </li>
+                            <li>
+                                <a href="#our_price" onclick="closeNav()">pricing</a>
+                            </li>
+                            <li>
+                                <a href="#"  onclick="closeNav()">about</a>
+                            </li>
+                            <li>
+                                <a href="#"  onclick="closeNav()">contact</a>
+                            </li>
+                            <a href="#"  onclick="closeNav()"></a>
+                           </div>
+                   </div>
+               </div>
+                <!---================= MEIN MOBILE END======================-->
+            </div>
+        </nav>
+    </header>
+    <!---================= HEADER SECTION END ======================-->
+    <!---================= SLIDER SECTION START ======================-->
+    <section id="slider_section">
+		<div class="container-fluid">
+            <div class="carousel slide" data-ride=carousel id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="slider_content">
+                                    <h1 class="display-1">Welcome to Parallels</h1>
+                                    <p>Clean Responsive Parallax Theme</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <img src="resources/img/Icon.png" alt="">
+                            </div>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="slider_content">
+                                    <h1 class="display-1">Welcome to Parallels</h1>
+                                    <p>Clean Responsive Parallax Theme</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <img src="resources/img/Icon.png" alt="">
+                            </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="slider_content">
+                                    <h1 class="display-1">Welcome to Parallels</h1>
+                                    <p>Clean Responsive Parallax Theme</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <img src="resources/img/Icon.png" alt="">
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+                   <span uk-icon="arrow-left"></span>
+                </a>
+                <a href="#carousel" class="carousel-control-next" data-slide="next">
+                   <span uk-icon="arrow-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!---================= SLIDER SECTION END ======================-->
+    <!---================= OUR SERVICES SECTION START ======================-->
+    <section id="our_services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="icon_area">
+                        <a href="#">
+                            <img src="resources/img/Browser.png" alt="Browser.png">
+                        </a>
+                    </div>
+                    <h3>WebDesign</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu varius dui. Nunc id 
+                    scelerisque ligula. </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon_area">
+                        <a href="#">
+                            <img src="resources/img/iphone.png" alt="iphone.png">
+                        </a>
+                    </div>
+                    <h3>UIDesign</h3>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada 
+                        fames ac turpis egestas.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon_area">
+                        <a href="#">
+                            <img src="resources/img/Trash.png" alt="Trash.png">
+                        </a>
+                    </div>
+                    <h3>Prototype</h3>
+                    <p>Sed vestibulum mi quis est lacinia tempor. Praesent vitae commodo tellus. Cras eu est sem.  </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon_area">
+                        <a href="#">
+                            <img src="resources/img/Camera.png" alt="Camera.png">
+                        </a>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Donec tempus lacinia purus ut tincidunt. Nunc vel feugiat leo. Nunc iaculis hendrerit gravida </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---================= OUR SERVICES SECTION END ======================-->
+    <!---================= THEM SECTION START ======================-->
+    <section id="them-section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-1">Do you like this clean theme?
+                    </h1>
+                    <button class="btn-1">purchaise</button>
+                    <button class="btn-2">Follow</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---================= THEMSECTION END ======================-->
+    <!---================= PORTFOLIO SECTION START ======================-->
+    <section id="portfolio-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfollio-button">
+                <button class="portfolio_btn" data-filter=".web-design">Web-design</button>
+                <button class="portfolio_btn" data-filter=".ui-design">UI Design</button>
+                <button class="portfolio_btn" data-filter=".phototype">Phototype</button>
+                <button class="portfolio_btn" data-filter=".photography">Photography</button>
+            </div>
+            <div class="portfolio-item" uk-lightbox="animation: scale">
+               <div class="row">
+                   <div class="col-md-3 mix photography">
+                       <a href="resources/img/portfolio-1.jpg">
+                           <img src="resources/img/portfolio-1.jpg" alt="portfolio-1.jpg">
+                       </a>
+                   </div>
+                   <div class="col-md-3 mix phototype web-design ui-design">
+                    <div class="overlay">
+                        <a href="resources/img/portfolio-2.jpg">
+                            <img src="resources/img/portfolio-2.jpg" alt="portfolio-2.jpg">
+                        </a>
+                        <div class="overlay_color">
+                        
+                        </div>
+                        <div class="ovelay-text">
+                            <h5>Clean night sky</h5>
+                            <p>photography</p>
+                            <div class="overlay-icon">
+                                <a href="#">
+                                    <img src="resources/img/Chat.png" alt="Chat.png">
+                                    <span>53</span>
+                                </a>
+                                <a href="#">
+                                    <img src="resources/img/heart.png" alt="Chat.png">
+                                    <span>230</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mix photography phototype ui-design">
+                    <div class="overlay">
+                        <a href="resources/img/portfolio-3.jpg">
+                            <img src="resources/img/portfolio-3.jpg" alt="portfolio-3.jpg">
+                        </a>
+                        <div class="overlay_color">
+                        
+                        </div>
+                        <div class="ovelay-text">
+                            <h5>Clean night sky</h5>
+                            <p>photography</p>
+                            <div class="overlay-icon">
+                                <a href="#">
+                                    <img src="resources/img/Chat.png" alt="Chat.png">
+                                    <span>53</span>
+                                </a>
+                                <a href="#">
+                                    <img src="resources/img/heart.png" alt="Chat.png">
+                                    <span>230</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mix phototype photography web-design">
+                    <div class="overlay">
+                        <a href="resources/img/portfolio-4.jpg">
+                            <img src="resources/img/portfolio-4.jpg" alt="portfolio-4.jpg">
+                        </a>
+                        <div class="overlay_color">
+                        
+                        </div>
+                        <div class="ovelay-text">
+                            <h5>Clean night sky</h5>
+                            <p>photography</p>
+                            <div class="overlay-icon">
+                                <a href="#">
+                                    <img src="resources/img/Chat.png" alt="Chat.png">
+                                    <span>53</span>
+                                </a>
+                                <a href="#">
+                                    <img src="resources/img/heart.png" alt="Chat.png">
+                                    <span>230</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+               <div class="row">
+                <div class="col-md-3 mix ui-design photography ui-design">
+                    <div class="overlay">
+                        <a href="resources/img/portfolio-5.jpg">
+                            <img src="resources/img/portfolio-5.jpg" alt="portfolio-5.jpg">
+                        </a>
+                        <div class="overlay_color">
+                        
+                        </div>
+                        <div class="ovelay-text">
+                            <h5>Clean night sky</h5>
+                            <p>photography</p>
+                            <div class="overlay-icon">
+                                <a href="#">
+                                    <img src="resources/img/Chat.png" alt="Chat.png">
+                                    <span>53</span>
+                                </a>
+                                <a href="#">
+                                    <img src="resources/img/heart.png" alt="Chat.png">
+                                    <span>230</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mix phototype web-design photography">
+                 <div class="overlay">
+                     <a href="resources/img/portfolio-6.jpg">
+                         <img src="resources/img/portfolio-6.jpg" alt="portfolio-6.jpg">
+                     </a>
+                     <div class="overlay_color">
+                        
+                    </div>
+                    <div class="ovelay-text">
+                        <h5>Clean night sky</h5>
+                        <p>photography</p>
+                        <div class="overlay-icon">
+                            <a href="#">
+                                <img src="resources/img/Chat.png" alt="Chat.png">
+                                <span>53</span>
+                            </a>
+                            <a href="#">
+                                <img src="resources/img/heart.png" alt="Chat.png">
+                                <span>230</span>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-3 mix photography web-design ui-design">
+                 <div class="overlay">
+                     <a href="resources/img/portfolio-7.jpg">
+                         <img src="resources/img/portfolio-7.jpg" alt="portfolio-7.jpg">
+                     </a>
+                     <div class="overlay_color">
+                        
+                    </div>
+                    <div class="ovelay-text">
+                        <h5>Clean night sky</h5>
+                        <p>photography</p>
+                        <div class="overlay-icon">
+                            <a href="#">
+                                <img src="resources/img/Chat.png" alt="Chat.png">
+                                <span>53</span>
+                            </a>
+                            <a href="#">
+                                <img src="resources/img/heart.png" alt="Chat.png">
+                                <span>230</span>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-3 mix web-design phototype photography">
+                <a href="resources/img/portfolio-8.jpg">
+                    <img src="resources/img/portfolio-8.jpg" alt="portfolio-8.jpg">
+                </a>
+              </div>
+             </div>
+            </div>
+            <h4>Load more</h4>
+            <a href="#our_price" class="arrow"><span uk-icon="triangle-down"></span></a>
+        </div>
+    </section>
+    <!---================= PORTFOLIO SECTION  END ======================-->
+    <!---================= PRICING SECTION  START ======================-->
+    <section id="pricing_section">
+        <div class="container">
+            <div class="content">
+                <h1 class="display-1">Pricing table</h1>
+                <h3>Clean beautiful flat table</h3>
+            </div>
+        </div>
+    </section>
+    <!---================= PRICING SECTION  END ======================-->
+    
+    <!---================= PRICING SECTION  START ======================-->
+    <section id="pricing_section">
+        <div class="container">
+            <div class="content">
+                <h1 class="display-1">Our team</h1>
+                <h3>We a professional and progressive team</h3>
+            </div>
+        </div>
+    </section>
+    <!---================= PRICING SECTION  END ======================-->
+    <!---================= ABOUT US SECTION  START ======================-->
+    <section id="about_section">
+        <div class="container">
+            <div class="content">
+                <h2>About US</h2>
+            </div>
+            <div class="the_theme" uk-lightbox="animation: slide">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="resources/img/photo_1.jpg">
+                            <img src="resources/img/photo_1.jpg" alt="photo_1.jpg">
+                        </a>
+                        <div class="text_area">
+                            <h3>Mark Cream</h3>
+                            <h4>Developer</h4>
+                            <p>Curabitur congue libero mi, et lacinia sem blandit sit amet. Donec eu mi non magna rhoncus bibendum et eu dui. Nunc iaculis placerat sapien vel imperdiet. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="resources/img/photo_2.jpg">
+                            <img src="resources/img/photo_2.jpg" alt="photo_2.jpg">
+                        </a>
+                        <div class="text_area">
+                            <h3>Antonio Paramo</h3>
+                            <h4>Fire Effects</h4>
+                            <p>Etiam pulvinar libero et scelerisque cursus. Sed eu nisl congue, gravida urna imperdiet, laoreet dolor. Morbi adipiscing neque erat, tincidunt 
+                                porttitor est vestibulum a </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="resources/img/photo_3.jpg">
+                            <img src="resources/img/photo_3.jpg" alt="photo_3.jpg">
+                        </a>
+                        <div class="text_area">
+                            <h3>Mario Ballote</h3>
+                            <h4>Big Bossr</h4>
+                            <p>Donec at pulvinar dolor, et lobortis est. Phasellus nibh nisi, blandit non velit sit amet, pulvinar vehicula nulla. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="resources/img/photo_4.jpg">
+                            <img src="resources/img/photo_4.jpg" alt="photo_4.jpg">
+                        </a>
+                        <div class="text_area">
+                            <h3>Ben Bugatton</h3>
+                            <h4>Designer</h4>
+                            <p>Mauris dignissim felis quis justo 
+                                malesuada gravida. Sed quis neque condimentum, luctus augue in, dapibus sapien. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="our_scills">
+            <h2>Our Skills</h2>
+            <div class=" skills">
+                <div class="col span_1_of_5">
+                    <svg class="radial-progress web_design" data-percentage="35" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">35%</text>
+                    </svg>
+                    <h5>WEB-DESIGN</h5>
+                </div>
+                <div class="col span_1_of_5">
+                    <svg class="radial-progress" data-percentage="85" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                    </svg>
+                    <h5>CREATIVE</h5>
+                </div> 
+                <div class="col span_1_of_5">
+                    <svg class="radial-progress" data-percentage="95" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+                    </svg>
+                    <h5>UI-DESIGN</h5>
+                </div> 
+                <div class="col span_1_of_5">
+                    <svg class="radial-progress" data-percentage="25" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">25%</text>
+                     </svg>
+                     <h5>PHOTOTYPE</h5>
+                </div> 
+                <div class="col span_1_of_5">
+                    <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                    </svg>
+                    <h5>PHOTOGRAPHY</h5>
+                </div>     
+               </div>
+           </div>
+         </div>
+         </div>
+    </section>
+    <!---================= ABOUT US SECTION  END ======================-->
+    <section id="more_section">
+        <div class="container">
+            <div class="content">
+               <div class="more_content">
+                <h1 class="display-2">You looked OVER 6000 px</h1>
+                <h3 class="display-3">That’s Great!</h3>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!---================= CONTACT US SECTION  START ======================-->
+    <section id="contact_section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Contact Us</h2>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>MAIL</h3>
+                    <form id="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="input-group col-lg-6">
+                                <input type="text" placeholder="Name" class="uk-input" name="name" required>
+                            </div>
+                            <div class="input-group col-lg-6">
+                                <input type="text" placeholder="Mail" class="uk-input" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <textarea name="message"  cols="70" rows="10" placeholder="Message" class="uk-textarea" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit"  class="uk-button submit-btn">Submit mail</button>
+                    </form>
+                    <p class="form-message"></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <h3>MORE INFO</h3>
+                    </div>
+                    <div class="address">
+                       <address>
+                           <p>(555) 888 555 03 20
+                            info@domain.com
+                            skype: username</p>
+                            <h5>
+                                John Dowl
+                                Salt Talke city. UT
+                                87550
+                            </h5>
+                       </address>
+                    </div>
+                    <button class="uk-button card-btn">Purchaise</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---================= CONTACT US SECTION  END ======================-->
+    <!---================= CONNECT SECTION  START ======================-->
+    <section id="connect_section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-2 text-light">Connect with us</h2>
+                    <h3 class="display-3 text-light mt-1 mb-1">Follow Us On Social Networks</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="social_link">
+                        <ul>
+                            <li>
+                                <a href="#" uk-icon="icon: github"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: flickr"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: vimeo"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: twitter"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: facebook"></a>
+                            </li><li>
+                                <a href="#" class="active" uk-icon="icon: google-plus"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: pinterest"></a>
+                            </li><li>
+                                <a href="#" uk-icon="icon: tumblr"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---================= CONNECT US SECTION  END ======================-->
+    <!---================= PHOTO STRAM  SECTION  START ======================-->
+    <section id="photo_stram">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header-one">
+                        <h2 class="text-light">Recent tweets</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                     <div class="header-two">
+                        <h2 class="text-light">Recent posts</h2>
+                     </div>
+                </div>
+					<div class="col-md-4">
+						<div class="header-three">
+							<h2 class="text-light">photo strame</h2>
+						 </div>
+					 </div>
+               </div>
+            </div>
+    </section>
+    <!---================= PHOTO STRAM SECTION  END ======================-->
+    <!---=================FOOTER SECTION  END ======================-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div>
+                        <a href="#header">
+                            <img src="resources/img/favicon.png" alt="favicon.png" data-target="#header"> 
+                                Parallels
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>2 (555) 888 555 03 20</li>
+                        <li>nfo@domain.com </li>
+                        <li>skype: usernam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---================= FOOTER SECTION  END ======================-->
+        <!---=================JQUERY JS======================-->
+    <script src="vendors/js/jquery.min.js"></script>
+    <!---=================POPPER JS======================-->
+    <script src="vendors/js/popper.min.js"></script>
+    <!---=================BOOTSTRAP JS ======================-->
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <!---=================UIKIT JS======================-->
+    <script src="vendors/js/uikit.min.js"></script>
+    <!---=================UILIT ICON JS======================-->
+    <script src="vendors/js/uikit-icons.min.js"></script>
+    <!---=================MIXITUP JQUERY PLAGIN======================-->
+    <script src="vendors/js/mixitup.min.js"></script>
+    <!---=================SLICK JQUERY PLAGIN======================-->
+    <script src="vendors/js/slick.min.js"></script>
+    <!---=================HTML5 Shiv//selectivizr//Waypoints JQUERY PLAGIN//radialprogress JQUERY PLAGIN======================-->
+    <script src="vendors/js/vendors.js"></script>
+    <script src="vendors/js/navbar-fixed.js"></script>
+    <script src="vendors/js/iosprogressbar.js"></script>
+    <!---=================MEIN JS======================-->
+    <script src="resources/js/mein.js"></script>
+</body>
+</html>
